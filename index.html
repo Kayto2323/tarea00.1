@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Página Personal</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            background-color: white;
+            margin: 30px;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        img {
+            width: 200px;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        form input {
+            padding: 6px;
+            width: 250px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <header>
+        <h1>Mi Página Personal</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#horario">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <article>
+                <p>
+                    Mi nombre es <strong>Frank</strong> y actualmente soy estudiante del curso
+                    <b>Introducción al Desarrollo Web</b>.  
+                    Me interesa aprender cómo se construyen las páginas web desde cero,
+                    utilizando HTML y CSS como base fundamental del desarrollo web.
+                </p>
+
+                <p>
+                    Este proyecto tiene como objetivo presentar información básica sobre mí,
+                    mis intereses y mis hábitos de estudio, aplicando una estructura correcta
+                    y buenas prácticas de diseño web.
+                </p>
+            </article>
+        </section>
+
+        
+        <section id="hobbies">
+            <h2>Hobbies e Intereses</h2>
+            <ul>
+                <li>Programar y practicar ejercicios de lógica</li>
+                <li>Aprender nuevas tecnologías relacionadas al desarrollo web</li>
+                <li>Escuchar música en mi tiempo libre</li>
+                <li>Ver series y contenido educativo</li>
+            </ul>
+        </section>
+
+     
+        <section id="horario">
+            <h2>torneo de juegos</h2>
+            <table>
+                <tr>
+                    <th>Día</th>
+                    <th>juego</th>
+                    <th>Horas</th>
+                </tr>
+                <tr>
+                    <td>Lunes</td>
+                    <td>Mario Kart</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Miércoles</td>
+                    <td>ajedrez</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>mortal kombat 11</td>
+                    <td>8 a 10</td>
+                </tr>
+            </table>
+        </section>
+
+   
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo electrónico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <input type="text" id="mensaje" name="mensaje"><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+
+    
+    <footer>
+        <p>© 2026 - Proyecto Introducción al Desarrollo Web</p>
+    </footer>
+
+</body>
+</html>
+
